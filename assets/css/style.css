@@ -8,6 +8,11 @@ body {
     font-size: 20px;
   }
 
+  h1 {
+    display: flex;
+    font-size: 300%;
+    
+  }
 
   .header {
     display: flex;
@@ -37,24 +42,40 @@ body {
   }
 
 .content {
-  
+  display: flex;
+  flex-direction: row;
+
 }
 
   .main h1 {
     font-size: 200%;
   }
 
-  .picture {
-
+  .content img {
+    max-height: 300px;
   }
 
   .About-Me {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    align-items: center;
+  }
+
+  .content h2 {
+    padding: 20px;
+    font-size: 300%;
+    color: white;
+    text-align: center;
+  }
+
+  .content p {
+    align-items: center;
   }
 
   .My-Work {
