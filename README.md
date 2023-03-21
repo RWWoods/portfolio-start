@@ -38,6 +38,9 @@ Placeholder 1 image: Photo by <a href="https://unsplash.com/@fickesphotos?utm_so
   
 
 Placeholder 2 image: Photo by <a href="https://unsplash.com/@ryunosuke_kikuno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ryunosuke Kikuno</a> on <a href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Placeholder 3 Image: Photo by <a href="https://unsplash.com/@marcus_ganahl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcus Ganahl</a> on <a href="https://unsplash.com/photos/N7DcR2PO__c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
   
 
 ## License
