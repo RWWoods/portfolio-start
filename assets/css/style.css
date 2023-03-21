@@ -4,8 +4,8 @@
   }
 
   body {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     background-color:var(--background);
     color: var(--font-main);
   }
@@ -47,7 +47,7 @@
   .About-Me {
     display: flex;
     flex-direction: row;
-    flex-basis: 85%;
+    /* flex-basis: 85%; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
   }
@@ -57,7 +57,7 @@
     font-size: 300%;
     text-align: center;
     flex-wrap: wrap;
-    flex-basis: 15%;
+    /* flex-basis: 15%; */
     border-right: 10px solid black;
     margin-right: 20px;
   }
@@ -70,7 +70,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
   }
@@ -82,22 +82,22 @@
     font-size: 300%;
     text-align: center;
     flex-wrap: wrap;
-    flex-basis: 15%;
+    /* flex-basis: 15%; */
     border-right: 10px solid black;
     margin-right: 20px;
   }
 
 
-  .big-photo {
+  /* .big-photo {
     flex-basis: 85%;
-  }
+  } */
 
 /* .My-Work img {
 flex-basis: 75%;
 } */
 
   .Contact-Me {
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     display: flex;
     flex-wrap: wrap;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -108,7 +108,7 @@ flex-basis: 75%;
     font-size: 300%;
     text-align: center;
     flex-wrap: wrap;
-    flex-basis: 15%;
+    /* flex-basis: 15%; */
     border-right: 10px solid black;
     margin-right: 20px;
   }
@@ -123,4 +123,62 @@ flex-basis: 75%;
     font-size: 150%;
     text-decoration: underline;
     justify-content: space-between;
+  }
+
+  .temp {
+  width: 30%;
+  }
+
+  .temp2 {
+  width: 70%;
+  }
+
+.temp3 {
+  display: flex;
+  flex-direction: row;
+}
+
+  #placeholder1 {
+    max-height: auto;
+    max-width: 100%;
+  }
+
+  #placeholder2 {
+    max-width: 100%;
+    max-height: auto;
+    /* flex-basis: 50%; */
+  }
+
+  #placeholder3 {
+    max-width: 100%;
+    max-height: auto%;
+    /* flex-basis: 50%; */
+  }
+
+  @media screen and (max-width: 992px) {
+    .About-Me {
+      display: block;
+    }
+    .My-Work {
+      display: block;
+    }
+    .Contact-Me {
+      display: block;
+    }
+#placeholder
+
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+     
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+
+    }
   }
