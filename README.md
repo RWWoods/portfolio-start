@@ -2,35 +2,16 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+I developed this project so that I would have a portfolio to reference professionally when I start applying for jobs in the software development field. This webpage allows me to host examples of the work I've done so far, demonstrates my competence in designing webpages, and provides easily accessible contact information for potential employers to use.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To use the webpage, open the project in a browser. Use the links at the top to navigate the webpage, the links in the "My Work" section will eventually link to my various projects.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+  
+    ![picture of webpage](assets/images/portfoliov1.png)
+   
 
 ## Credits
 
@@ -42,9 +23,5 @@ Placeholder 2 image: Photo by <a href="https://unsplash.com/@ryunosuke_kikuno?ut
 Placeholder 3 Image: Photo by <a href="https://unsplash.com/@marcus_ganahl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcus Ganahl</a> on <a href="https://unsplash.com/photos/N7DcR2PO__c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
   
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
 ---

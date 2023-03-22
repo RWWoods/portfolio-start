@@ -62,9 +62,10 @@
     margin-right: 20px;
   }
 
-  .content p {
-    align-items: center;
-  }
+  /* .content {
+    display: flex;
+    flex-direction: row;
+  } */
 
   .My-Work {
     display: flex;
@@ -86,15 +87,6 @@
     border-right: 10px solid black;
     margin-right: 20px;
   }
-
-
-  /* .big-photo {
-    flex-basis: 85%;
-  } */
-
-/* .My-Work img {
-flex-basis: 75%;
-} */
 
   .Contact-Me {
     /* flex-basis: 100%; */
@@ -141,44 +133,44 @@ flex-basis: 75%;
   #placeholder1 {
     max-height: auto;
     max-width: 100%;
+    padding: 10px;
+    object-fit: contain;
   }
 
   #placeholder2 {
-    max-width: 100%;
+    max-width: 90%;
     max-height: auto;
+    padding: 10px;
     /* flex-basis: 50%; */
   }
 
   #placeholder3 {
-    max-width: 100%;
-    max-height: auto%;
+    max-width: 90%;
+    max-height: auto;
+    padding: 10px;
     /* flex-basis: 50%; */
   }
 
-  @media screen and (max-width: 992px) {
-    .About-Me {
-      display: block;
-    }
-    .My-Work {
-      display: block;
-    }
-    .Contact-Me {
-      display: block;
-    }
-#placeholder
+  /* @media screen and (max-width: 992px) {
+ .contacts {
+  flex-direction: column
+ }
+} */
+/* #placeholder
 
   }
   
   /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     nav {
      
     }
   }
-  
+   */
   /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
+  /* @media screen and (max-width: 576px) {
     .sample-img {
 
     }
   }
+   */ 
